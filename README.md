@@ -1,8 +1,14 @@
 # 🧘 Real-Time Stress & Posture Detection System
 
-A Python computer-vision mini-project that uses your webcam to continuously
-monitor posture, facial stress indicators, and eye blink rate — then alerts
-you with colour-coded on-screen notifications and optional voice feedback.
+Prolonged screen time causes employees to unknowingly hunch, tense up, and 
+forget to blink — leading to back pain, eye strain, and fatigue over time.
+
+This system uses your webcam to silently monitor your posture, facial stress 
+levels, and blink rate in real time. The moment something is off, it alerts 
+you instantly through on-screen notifications and voice reminders — so you 
+can correct yourself before the damage builds up.
+
+No wearables. No sensors. Just your webcam.
 
 ---
 
