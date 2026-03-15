@@ -1,0 +1,14 @@
+PyQt5>=5.15.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Any mediapipe version is now supported:
+#   < 0.10.31  → uses legacy solutions API (no model download needed)
+#   >= 0.10.31 → uses new Tasks API (auto-downloads ~5 MB models on first run)
+#   Not installed → falls back to OpenCV-only Haar cascade detection
+mediapipe>=0.10.0
+
+# Voice alerts (optional):
+# Linux:   sudo apt install espeak
+# macOS:   uses built-in 'say' — no install needed
+# Windows: uses PowerShell SAPI — no install needed
